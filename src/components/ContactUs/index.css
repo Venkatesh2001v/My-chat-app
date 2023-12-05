@@ -1,0 +1,35 @@
+.logo-bottom{
+    font-family: Poppins;
+    font-size: 30px;
+    color: #F3AE9F;
+    font-weight: 700;
+    text-align: center;
+}
+
+.link{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact-details-container{
+    display: flex;
+    align-items: center;
+}
+
+.social-media-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.social-media-logos{
+    width: 28px;
+}

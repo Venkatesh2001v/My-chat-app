@@ -1,0 +1,151 @@
+.allchats-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+@media screen and (max-width:992px){
+    .allchats-container{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-heading{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.chat-image-container{
+    background-color: #F3AE9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.chat-icon{
+    width: 17px;
+    margin-left: auto;
+}
+
+.chat-state{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #050505;
+    margin: auto;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.content{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.user-details-container1{
+    background-color: #2F2F2F;
+    display: flex;
+    border-radius: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.user-details-container2{
+    display: flex;
+    border-radius: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.user-img{
+    width: 35px;
+    margin-right: 5px;
+}
+
+.chats-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.user-state{
+    color: #7F8781;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+.horizontal-line{
+    border: none; 
+    height: 2px; 
+    background-color: #3F3F3F;
+}
+
+.add-new-container{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.create-btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.add-icon{
+    width: 30px;
+    margin-right: 8px;
+}
+
+.add-new-text{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 0;
+}

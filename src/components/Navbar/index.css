@@ -1,0 +1,110 @@
+.navbar-large-size{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:992px){
+    .navbar-large-size{
+        display: none;
+    }
+}
+
+.small{
+    background-color: transparent !important;
+}
+
+.small-btn{
+    color: #F3AE9F !important;
+    background-color: #FFFFFF !important;
+}
+
+.nav-options{
+    background-color: transparent !important;
+}
+
+.nav-b-btn{
+    background-color: #F3AE9F;
+    border-radius: 12px;
+    width: 60px;
+}
+
+.nav-texts{
+    color: #FFFFFF !important;
+}
+
+.nav-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    width: 45%;
+}
+
+.nav-items{
+    display: flex;
+    margin-right: 8px;
+}
+
+.logo{
+    font-family: Poppins;
+    font-size: 30px;
+    color: #F3AE9F;
+    font-weight: 700;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bar{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar-logos{
+    margin-right: 8px;
+    margin-left: 4px;
+    width: 23px;
+}
+
+.explore{
+    color: #F3AE9F;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.headers{
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+
+.login-btn{
+    font-family: Open Sans;
+    font-size: 17px;
+    background-color: #F3AE9F;
+    width: 182px;
+    height: 40px;
+    padding: 15px, 40px, 20px, 40px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
